@@ -1,0 +1,129 @@
+body {
+    margin-top: 0px;
+    background-color: #e7feff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px 20px 5px 20px;
+    align-items: center;
+    
+}
+nav {
+    height: 60px;
+    width: 1000px;
+}
+#mainheader {
+    background-color: #2a52be;
+    padding-top: 0px;
+    margin-top: 0px;
+    border-top: 0px;
+    color: whitesmoke;
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;#2a52be;
+    padding: 0;
+
+}
+
+.header img {
+    float: right;
+    width: 200px;
+    height: 200px;
+    background: #2a52be;
+  }
+  
+  .header h1 {
+    position: relative;
+    top: 18px;
+    left: 10px;
+  }
+
+
+h3:hover {
+text-decoration: underline;
+}
+img {
+    width: 1000px;
+}
+
+
+ul {
+    list-style: none;
+}
+
+
+.openbtn {
+    background: #2a52be;
+    display: inline-block;
+    border-radius: 250px;
+    margin: 0px;
+    position: relative;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.sidebar {
+    height: 100%; 
+    width: 160;
+    position: absolute; 
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    background-color:#2a52be; 
+    overflow-x: hidden;
+    padding-top: 0px;
+    padding-left: 0%;
+    transition: 0.5s; 
+    
+  }
+
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fcfafa;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+
+.sidebar .openbtn {
+        font-size: 20px;
+        cursor: pointer;
+        background-color: rgb(255, 244, 244);
+        color: white;
+        padding-left:0px;
+        border: none;
+        align-self: left;
+      }   
+
+.openbtn:hover {
+        background-color: #444;
+      } 
+
+
+@media screen and (max-width: 1000px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+  .searchbox {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    border: 10px;
+
+  }
+
+  

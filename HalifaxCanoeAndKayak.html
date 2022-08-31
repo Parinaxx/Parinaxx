@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Halifax Canoe and Kayak</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+    <style type="text/css">
+
+    .container {
+        position: relative;
+        text-align: center;
+        color: white;
+        padding: 0px auto 10px 5px;
+}
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 50px;
+        font-style: oblique;
+        
+}
+
+
+    </style>
+</head>
+
+<body>
+    <header id="mainheader">
+
+        <div class="header">
+            <img src="paddle-white.png" alt="logo" />
+            <h1>Halifax Canoe and Kayak</h1>
+          </div>
+
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="#">Home</a>
+            <a href="#">Book Event</a>
+            <a href="#">Admin Login</a>
+            <a href="#">Contact</a>
+            <input type="search" class="searchbox" placeholder="Search">
+          </div>
+          
+          <div id="main">
+            <button class="openbtn" onclick="openNav()">☰</button> 
+          </div>
+    
+    </header>
+
+    
+      
+      
+    
+    
+
+
+    <div class="container">
+        <img src="https://raw.githubusercontent.com/Zulinov/skillsProjects/main/canoe.jpg" alt="Canoe in the lake">
+
+        <div class="centered">Come Experience Canada</div>
+    </div>
+
+    
+    
+    
+
+    <article>
+        <header>
+            <h2>Upcoming Events</h2>
+
+    <h3>
+       <a href="https://canoekayak.ca/event/2023-freestyle-national-team-trials/">2023 Freestyle National Team Trials</a> 
+    </h3>
+
+    <h4>August 29 - August 30 2022. Beachburg</h4>
+        <p>
+            <b>Halifax Canoe and Kayak</b> and <b>the Canoe Kayak Freestyle Committee</b> are excited to announce a partnership with the Ottawa Kayak School / Wilderness Tours to host the 2023 National Team Trials, August 29th and 30th (2022), in Beachburg, Ontario 
+
+            <br>
+
+            <i>The 2023 ICF Freestyle World Championships</i>, taking place June 27th to July 1st, in Columbus, Georgia, will once again be hosted on a wave feature, which makes the Ottawa River and Ottawa Kayak School, host of the 2015 ICF Freestyle World Championships, the perfect place to train and compete for a spot on the 2023 National Team.
+        </p>
+    
+    <h3>
+       <a href="https://discoverhalifaxns.com/event/2022-icf-canoe-sprint-and-paracanoe-world-championships/">2022 ICF CANOE SPRINT AND PARACANOE WORLD CHAMPIONSHIPS</a> 
+    </h3>
+    <h4>August 3 - August 7</h4>
+    <p>
+        <b>Lake Banook</b> rejoins the global stage in Summer 2022 as the most powerful paddlers on the planet come to Nova Scotia to battle it out. The <i>2022 ICF Canoe Sprint and Paracanoe World Championships</i> will take place from August 3–7, in Dartmouth, Nova Scotia.
+
+        With a dynamic race schedule on the lake, and a free public cultural festival along Prince Albert Roadway, this international event is sure to entertain.
+    </p>
+        </header>
+    </article>
+
+
+    <script src="script.js"></script>
+
+    <script>
+        function openNav() {
+          document.getElementById("mySidebar").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidebar").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+        }
+        </script>
+
+   
+</body>
+</html>
+
